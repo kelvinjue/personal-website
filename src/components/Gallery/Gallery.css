@@ -1,7 +1,5 @@
 /* The Masonry Brick */
 .element {
-    background: red;
-    width: 1000px;
-    padding: 1em;
-    margin: 0 0 1.5em;
+    width: 480px;
+    height: 480px;
   }

@@ -1,14 +1,8 @@
 
 .App {
   font-family: 'Open Sans', sans-serif;
-}
-
-.App-logo {
-  position: absolute;
-  animation: App-logo-spin infinite 20s linear;
-  left: 0;
-  top: 0;
-  height: 55px;
+  font-size: 20px;
+  overflow-y: scroll;
 }
 
 .header-container {
@@ -23,49 +17,8 @@
   justify-content: center;
 }
 
-/* Box-sizing reset: http://w3bits.com/?p=3225 */
-html {
-  box-sizing: box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-/* The Masonry Container */
-.masonry {
-  margin: 1.5em auto;
-  max-width: auto;
-  column-gap: 1.5em;
-  width: auto;
-}
-
-/* Masonry on large screens */
-@media only screen and (min-width: 1024px) {
-  .masonry {
-    column-count: 4;
-  }
-}
-
-/* Masonry on medium-sized screens */
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
-  .masonry {
-    column-count: 3;
-  }
-}
-
-/* Masonry on small screens */
-@media only screen and (max-width: 767px) and (min-width: 540px) {
-  .masonry {
-    column-count: 2;
-  }
-}
-
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.header-item {
+  display: inline-flex;
+  left: 0;
 }
 
