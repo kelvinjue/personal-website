@@ -6,7 +6,7 @@ class Navigation extends Component {
             return (
                 <div>
                     <NavLink to='/personal-website/'>Home </NavLink>
-                    <NavLink to='/about'>About</NavLink>
+                    <NavLink to='/personal-website/about'>About</NavLink>
                 </div>
             )
         }
